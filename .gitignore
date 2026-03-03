@@ -25,3 +25,10 @@ Thumbs.db
 # Docker
 docker-compose.override.yml
 .env
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.webp
+!image_3.webp
