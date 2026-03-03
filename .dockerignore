@@ -1,0 +1,21 @@
+# Version control
+.git
+.gitignore
+
+# Docker
+docker-compose.yml
+Dockerfile
+
+# Immagini non utilizzate nel sito in produzione
+image_1.png
+image_1.webp
+image_2.png
+image_2.webp
+
+# Documentazione
+README.md
+
+# File temporanei
+*.log
+.DS_Store
+Thumbs.db
