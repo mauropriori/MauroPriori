@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    container_name: mauropriori_web
+    ports:
+      - "8012:80"
+    restart: unless-stopped
+    volumes:
+      - ./:/app
